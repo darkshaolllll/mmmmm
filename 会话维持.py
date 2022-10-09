@@ -6,3 +6,4 @@ s=requests.session()
 s.get('http://httpbin.org/cookies/set/number/123456789')
 r=s.get('http://httpbin.org/cookies')#相当于同一个浏览器打开了两个标签
 print(r.text)
+#现在还不明白一些底层的内容
